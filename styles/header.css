@@ -6,8 +6,10 @@
 }
 
 .left-header-section {
-  background-color: lightpink;
-  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .middle-header-section {
