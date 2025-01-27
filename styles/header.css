@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  border: 1px solid black;
+}
+
+.left-header-section {
+  background-color: lightpink;
+  width: 150px;
+}
+
+.middle-header-section {
+  background-color: lightcyan;
+  flex: 1;
+  max-width: 500px;
+}
+
+.right-header-section {
+  background-color: lightgreen;
+  width: 200px;
+}
